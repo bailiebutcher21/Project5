@@ -4,3 +4,4 @@ var AccountType;
     AccountType[AccountType["savings"] = 2] = "savings";
     AccountType[AccountType["retirement"] = 3] = "retirement";
 })(AccountType || (AccountType = {}));
+//# sourceMappingURL=EmunAccountType.js.map

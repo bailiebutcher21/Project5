@@ -5,7 +5,7 @@ interface Account {
     withdrawMoney(amount: number,
                   description: string,
                   transactionOrigin: TransactionOrigin) : Transaction;
-    depositMoney(amount: number
+    depositMoney(amount: number,
     description: string) : Transaction;
     accountHistory : Transaction[];
     advanceDate(numberOfDays: number);
